@@ -7,16 +7,17 @@ function Adding({ todo }) {
     
 
     const handleSubmit = (e) => {
-        e.preventDefault();
-        const newSaving = {
-          id: Date.now(),
-          title: name,
-          completed: 0, 
-        };
-        todo(newSaving);
-        setName('');
-        setShowForm(false);
-      };
+    e.preventDefault();
+    const newTodo = {
+      id: Date.now(),
+      title: name,
+      completed: 0,
+    };
+    todo(newTodo);
+    setName('');
+    setShowForm(false);
+  };
+  
 
     return (
         <>
@@ -24,6 +25,7 @@ function Adding({ todo }) {
                 <img className="➕"src="https://cdn-icons-png.flaticon.com/512/4210/4210903.png" alt="+" />
             </div>
             ) :(
+            <div className="form-container">
             <div className='form'>
                 <form onSubmit={handleSubmit}>
                     <h2>Add New Saving</h2>
@@ -31,8 +33,9 @@ function Adding({ todo }) {
                         Todo:
                         <input type="text" value={name} onChange={(e) => setName(e.target.value)} required />
                     </label>
-                    <button id="form1"type="submit">Add Saving</button>
+                    <button id="form1"type="submit">Add Todo</button>
                 </form>
+            </div>
             </div>
                 )}
         </>

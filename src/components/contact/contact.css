@@ -1,0 +1,47 @@
+.contact-con {
+    width: 20%;
+    position: fixed;
+    bottom: 33px;
+    right: 80px;
+}
+
+.contact {
+    color: #256474;
+    width: 100%;
+    background-color: #e6e6e6;
+    border: 1px solid #7a7a7a;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    box-shadow: 3px 4.5px #7a7a7a62;
+    margin-top: 20px;
+    justify-content: center;
+    position: relative;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.ct-h{
+    font-size: 24px;
+}
+.picon{
+    border-radius: 15px;
+    position: relative;
+    width: 100px;
+}
+.name{
+    font: bold;
+    font-size: 22px;
+}
+.username{
+    font-size: 25px;
+}
+.link{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.contacticon{
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 50px;
+}

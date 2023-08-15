@@ -2,17 +2,30 @@
 
 body {
   font-family: 'Roboto Mono', cursive;
+  background-color: #333333;
 }
 
 .container {
+  width: 100%;
   padding-top: 150px;
   font-size: 20px;
   display: flex;
 }
-.list{
-  width: 66%;
+
+.list {
+  width: 63%;
 }
-.side{
-  padding-left: 50px;
+
+.side {
+  width: 38%;
   justify-content: center;
+
+
+}
+.addcon{
+  
+}
+
+.ct{
+  position: fixed;
 }
