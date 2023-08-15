@@ -1,5 +1,33 @@
 .box-container{
+    position: relative;
     width: 100%;
     text-align: center;
     border-bottom: 1.5px solid black;
+    padding-top: 20px;
+    display: flex;
+    height: 70px;
+    padding-left: 5%;
+    padding-bottom: 20px;
+}
+input[type="checkbox"] {
+    appearance: checkbox;
+    -webkit-appearance: checkbox;
+    background-color: #efccff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.7em;
+    height: 1.7em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    justify-content: center;
+  }
+  
+
+.text{
+    font-size:  28px;
+    padding-left: 5%;
+    text-align: left;
+    width: 69%;
 }
