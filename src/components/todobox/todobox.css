@@ -10,6 +10,7 @@
     padding-bottom: 20px;
 }
 input[type="checkbox"] {
+    padding-top: 50%;
     appearance: checkbox;
     -webkit-appearance: checkbox;
     background-color: #efccff;
@@ -29,5 +30,4 @@ input[type="checkbox"] {
     font-size:  28px;
     padding-left: 5%;
     text-align: left;
-    width: 69%;
 }

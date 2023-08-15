@@ -7,4 +7,12 @@ body {
 .container {
   padding-top: 150px;
   font-size: 20px;
+  display: flex;
+}
+.list{
+  width: 66%;
+}
+.side{
+  padding-left: 50px;
+  justify-content: center;
 }

@@ -1,0 +1,51 @@
+.form {
+    background-color: #ffebb5;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 3px 4.5px #7a7a7a62;
+    margin-top: 20px;
+    justify-content: left;
+    position: relative;
+  }
+  
+  .form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .form form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #b1aca300;
+    border-radius: 3px;
+  }
+  
+  form button#form1{
+    background-color: #c3ffa0;
+    color: #005c17;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 10px;
+    cursor: pointer;
+    box-shadow: 3px 4.5px #7a7a7a62;
+  }
+  .plus-icon{
+    width: 100%;
+    justify-content: center;
+
+  }
+  .➕{
+    position: relative;
+    justify-content: center;
+    width: 75%;
+    margin: 5px;
+    
+  }
+  
