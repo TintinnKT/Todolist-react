@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Topic from './components/header/topic';
 import './App.css';
+
+//component
 import TodoBox from './components/todobox/todobox';
 import Adding from './components/Adding/Adding';
 import Contact from './components/contact/Contact';
